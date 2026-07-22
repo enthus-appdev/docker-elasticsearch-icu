@@ -1,2 +1,2 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:9.4.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:9.4.4
 RUN elasticsearch-plugin install --batch analysis-icu
